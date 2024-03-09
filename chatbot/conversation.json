@@ -1,0 +1,65 @@
+{
+  "conversation": [
+    {
+      "type": "greet",
+      "user": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "How are you?",
+        "Good afternoon",
+        "Good morning"
+      ],
+      "bot": [
+        "Hello! How can I help you?",
+        "Hi! How are you today?",
+        "Hey! What can I do for you?"
+      ]
+    },
+    {
+      "type": "help",
+      "user": [
+        "I need to find a job",
+        "Help me find a product to sell",
+        "I need to make money"
+      ],
+      "bot": [
+        "You can try selling a trending product",
+        "You can try selling software",
+        "Start learning new things"
+      ]
+    },
+    {
+      "type": "thanking",
+      "user": [
+        "Thank you very much",
+        "Thanks a lot",
+        "It was very helpful",
+        "I want to thank you"
+      ],
+      "bot": [
+        "I am glad to hear that",
+        "I am glad to help you",
+        "I was doing my job",
+        "It is nothing"
+      ]
+    },
+    {
+      "type": "bye",
+      "user": [
+        "Goodbye",
+        "Have a nice day",
+        "Quit",
+        "Bye",
+        "Good night",
+        "See you"
+      ],
+      "bot": [
+        "Have a nice day!",
+        "See you soon.",
+        "It was great talking to you!",
+        "I wish you a great day"
+      ]
+    }
+  ]
+}
