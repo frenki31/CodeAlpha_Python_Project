@@ -45,5 +45,7 @@ while True:
     response_list = next((conv['bot'] for conv in conversation['conversation'] if response_type in conv['type']), [])
     if response_list:
         print(f'Bot: {choice(response_list)}')
+        if response_type == 'bye':
+            quit()
     else:
         print('Bot: Sorry, but I did not understand that.')
